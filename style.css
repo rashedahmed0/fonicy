@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+header {
+    padding-bottom: 15px;
+    width: 90%;
+    margin: auto;
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    /* width: 100%; */
+}
+
+.logo img {
+    width: 100%;
+}
+
+.navbar {
+    margin-left: 100px;
+    margin-top: 19px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: black;
+    transition: 0.6s;
+}
+
+.navbar ul li a:hover {
+    background: black;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 7px;
+}
+
+span {}
+
+span .fa-magnifying-glass {
+    margin-top: 22px;
+}
+
+.banner {
+    background-image: url(./images/slider-bg.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-container {
+    width: 80%;
+    margin: auto;
+}
+
+.banner-text {
+    color: white;
+}
+
+.banner-text h1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.banner-text a {}
+
+.banner-text .btn1 {
+    color: white;
+    background: #f07b26;
+    padding: 12px 30px;
+    transition: 0.6s;
+}
+
+.banner-text .btn1:hover {
+    background: #ec6f15;
+}
+
+.banner-text .btn2 {
+    color: white;
+    background: rgb(20, 19, 19);
+    padding: 12px 30px;
+    transition: 0.6s;
+}
+
+.banner-text .btn2:hover {
+    background: rgb(0, 0, 0);
+}
+
+.service {}
+
+.service-container {}
+
+.titles h1 {}
+
+.titles p {}
+
+.service-card {}
+
+.service-card-item {}
