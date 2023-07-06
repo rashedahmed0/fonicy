@@ -162,3 +162,119 @@ span .fa-magnifying-glass {
 .service-card-item h5:hover {
     color: #ec6f15;
 }
+
+
+.about-us {
+    margin: 50px 0;
+}
+
+.about-container {
+
+    padding: 20px 100px;
+    width: 80%;
+    margin: auto;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.about-text {
+    flex-basis: 47%;
+}
+
+.about-text h2 {
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
+
+.about-text a {
+    color: white;
+    background: #ec6f15;
+    padding: 10px 25px;
+}
+
+.about-img {
+    flex-basis: 47%;
+    position: relative;
+}
+
+.about-img::before {
+    content: "";
+    width: 48px;
+    height: 70%;
+    background: #ec6f15;
+    position: absolute;
+    right: 96%;
+    top: 48px;
+
+}
+
+.about-img::after {
+    content: "";
+    width: 33px;
+    height: 70%;
+    background: #ec6f15;
+    position: absolute;
+    right: -4.4%;
+    top: 48px;
+
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.project {
+    margin: 50px 0;
+}
+
+.project-container {
+    width: 80%;
+    margin: auto;
+}
+
+.project-container ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-container ul li {}
+
+/* .project-container ul li:first-child {
+    color: white !important;
+    background: #000;
+    padding: 14px 25px;
+} */
+
+.project-container ul li a {
+    color: black;
+}
+
+.project-container ul li a:hover {
+    color: #ec6f15;
+}
+
+.project-container h2 {
+    margin-bottom: 20px;
+}
+
+.project-all-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-img {
+    margin-top: 30px;
+    flex-basis: 31%;
+}
+
+.project-img img {
+    width: 100%;
+}
